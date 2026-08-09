@@ -11,6 +11,7 @@ the published site is still public at the domain above.
 - `research.html` — research page, currently a "coming soon" placeholder
 - `style.css` — shared styling
 - `vu-logo.png` — VU/SBE logo shown top-left in the header
+- `favicon.ico`, `favicon-32.png`, `favicon-16.png` — browser tab icon, cropped from `vu-logo.png` (VU wordmark + griffin only)
 - `CNAME` — custom domain configuration for GitHub Pages (`www.sijmenrijks.nl`)
 
 ## Updating content
