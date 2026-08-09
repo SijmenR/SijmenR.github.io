@@ -31,9 +31,20 @@ header.site-header {
   gap: 1rem;
 }
 
+header.site-header .brand {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
 header.site-header .logo {
   height: 40px;
   width: auto;
+}
+
+header.site-header .name {
+  font-size: 1.15rem;
+  font-weight: bold;
 }
 
 nav.site-nav ul {
@@ -64,15 +75,15 @@ main {
   text-align: center;
 }
 
-main h1 {
-  font-size: 2rem;
-  margin: 0 0 1rem;
-}
-
 main .subtitle-lines p {
   margin: 0.2rem 0;
   color: var(--muted);
   font-size: 1.05rem;
+}
+
+main .subtitle-lines p:first-child {
+  font-size: 1.2rem;
+  color: var(--text);
 }
 
 main h2 {

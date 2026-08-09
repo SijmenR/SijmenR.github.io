@@ -6,8 +6,8 @@ the published site is still public at the domain above.
 
 ## Structure
 
-- `index.html` — homepage (name, affiliation, contact, VU/SBE logo)
-- `cv.html` — CV page, embeds `cv.pdf`
+- `index.html` — homepage (name in header, affiliation, contact, VU/SBE logo)
+- `cv.pdf` — linked directly from the nav's "CV" item (no intermediate page)
 - `research.html` — research page, currently a "coming soon" placeholder
 - `style.css` — shared styling
 - `vu-logo.png` — VU/SBE logo shown top-left in the header
