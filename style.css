@@ -1,7 +1,7 @@
 :root {
-  --text: #1a1a1a;
-  --muted: #555;
-  --accent: #8a1f1f;
+  --text: #202124;
+  --muted: #5f6368;
+  --accent: #1a73e8;
   --border: #e2e2e2;
   --max-width: 720px;
 }
@@ -13,28 +13,27 @@
 body {
   margin: 0;
   padding: 0 1.5rem;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: var(--text);
   line-height: 1.6;
   background: #fff;
 }
 
 header.site-header {
-  max-width: var(--max-width);
+  max-width: 960px;
   margin: 0 auto;
-  padding: 2rem 0 1rem;
+  padding: 1.5rem 0 1rem;
   border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
-header.site-header h1 {
-  margin: 0 0 0.25rem;
-  font-size: 1.8rem;
-}
-
-header.site-header .subtitle {
-  color: var(--muted);
-  font-size: 1rem;
-  margin: 0 0 1rem;
+header.site-header .logo {
+  height: 40px;
+  width: auto;
 }
 
 nav.site-nav ul {
@@ -43,7 +42,6 @@ nav.site-nav ul {
   gap: 1.5rem;
   padding: 0;
   margin: 0;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 0.95rem;
 }
 
@@ -62,12 +60,24 @@ nav.site-nav a.active {
 main {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 2rem 0 4rem;
+  padding: 3rem 0 4rem;
+  text-align: center;
+}
+
+main h1 {
+  font-size: 2rem;
+  margin: 0 0 1rem;
+}
+
+main .subtitle-lines p {
+  margin: 0.2rem 0;
+  color: var(--muted);
+  font-size: 1.05rem;
 }
 
 main h2 {
   font-size: 1.3rem;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
 }
 
 a {
@@ -82,8 +92,7 @@ a {
 }
 
 .notice {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: var(--muted);
   background: #f7f7f7;
   border: 1px solid var(--border);
@@ -98,5 +107,5 @@ footer.site-footer {
   padding-bottom: 3rem;
   color: var(--muted);
   font-size: 0.85rem;
-  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
 }
