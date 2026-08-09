@@ -8,8 +8,8 @@ the published site is still public at the domain above.
 
 - `index.html` — homepage (name in header, affiliation, contact, VU/SBE logo)
 - `cv.pdf` — linked directly from the nav's "CV" item (no intermediate page)
-- `paper.pdf` — placeholder for the paper, linked directly from the paper's title page
-  (`00 main.tex`) as the "latest version" URL; **not** linked from any nav or page on the site
+- `sticky-deposits-paper.pdf` — placeholder for the paper, linked directly from the paper's title
+  page (`00 main.tex`) as the "latest version" URL; **not** linked from any nav or page on the site
 - `research.html` — research page, currently a "coming soon" placeholder
 - `style.css` — shared styling
 - `vu-logo.png` — VU/SBE logo shown top-left in the header
@@ -24,8 +24,8 @@ the published site is still public at the domain above.
 
 ## Paper
 
-`paper.pdf` currently holds a placeholder. Replace it with the real PDF (same filename) when
-ready to publish. It is deliberately not linked from any nav item or page yet — build out
-`research.html` and link to it there when the paper is ready to be public. The separate public
-repo `SijmenR/sticky-deposits-paper` is no longer referenced anywhere and can be deleted or left
-as-is.
+`sticky-deposits-paper.pdf` currently holds a placeholder. Replace it with the real PDF (same
+filename) when ready to publish. It is deliberately not linked from any nav item or page yet —
+build out `research.html` and link to it there when the paper is ready to be public. The separate
+public repo `SijmenR/sticky-deposits-paper` is no longer referenced anywhere and can be deleted or
+left as-is.
