@@ -45,6 +45,8 @@ header.site-header .logo {
 header.site-header .name {
   font-size: 1.15rem;
   font-weight: bold;
+  margin: 0;
+  line-height: inherit;
 }
 
 nav.site-nav ul {
