@@ -77,12 +77,31 @@ main {
   text-align: center;
 }
 
+main .intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  text-align: left;
+}
+
 main .portrait {
-  display: block;
+  flex: none;
   width: 180px;
   height: auto;
-  margin: 0 auto 1.5rem;
   border-radius: 4px;
+}
+
+main .intro-text h2 {
+  margin-top: 1.75rem;
+}
+
+@media (max-width: 560px) {
+  main .intro {
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+  }
 }
 
 main .subtitle-lines p {
