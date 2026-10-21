@@ -87,9 +87,11 @@ main .intro {
 
 main .portrait {
   flex: none;
-  width: 180px;
-  height: auto;
-  border-radius: 4px;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--border);
 }
 
 main .intro-text h2 {
