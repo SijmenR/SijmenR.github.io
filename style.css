@@ -77,6 +77,14 @@ main {
   text-align: center;
 }
 
+main .portrait {
+  display: block;
+  width: 180px;
+  height: auto;
+  margin: 0 auto 1.5rem;
+  border-radius: 4px;
+}
+
 main .subtitle-lines p {
   margin: 0.2rem 0;
   color: var(--muted);
