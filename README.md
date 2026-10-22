@@ -15,6 +15,7 @@ the published site is still public at the domain above.
 - `vu-logo.png` — VU/SBE logo shown top-left in the header
 - `photo.jpg` — portrait on the homepage (full photo, 400×600, resized from the original)
 - `favicon.ico`, `favicon-32.png`, `favicon-16.png` — browser tab icon, cropped from `vu-logo.png` (VU wordmark + griffin only)
+- `sitemap.xml`, `robots.txt` — for search engines; add new pages to `sitemap.xml`. Each page carries a `<link rel="canonical">` to its `https://www.` URL
 - `CNAME` — custom domain configuration for GitHub Pages (`www.sijmenrijks.nl`)
 
 ## Updating content
