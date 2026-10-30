@@ -180,3 +180,19 @@ footer.site-footer {
 .paper details p {
   margin-top: 0.5rem;
 }
+
+main.cv-main {
+  max-width: 960px;
+  padding-top: 1.5rem;
+}
+
+.cv-download {
+  margin: 0;
+  text-align: right;
+  font-size: 0.95rem;
+}
+
+main.cv-main .embed {
+  height: calc(100vh - 12rem);
+  min-height: 500px;
+}
