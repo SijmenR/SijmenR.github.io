@@ -6,17 +6,17 @@ the published site is still public at the domain above.
 
 ## Structure
 
-- `index.html` — homepage (name in header, affiliation, contact, VU/SBE logo)
-- `cv.pdf` — linked directly from the nav's "CV" item, opening in a new tab
+- `index.html` — the whole site on one page: intro (affiliation, contact), a `#cv` section linking to `cv.pdf`, and a `#research` section with paper titles and abstracts. The nav items jump to `#top`, `#cv` and `#research`
+- `cv.pdf` — linked from the CV section of `index.html`, opening in a new tab
 - `sticky-deposits-paper.pdf` — placeholder for the paper, linked directly from the paper's title
   page (`00 main.tex`) as the "latest version" URL; **not** linked from any nav or page on the site
-- `research.html` — research page: paper titles and abstracts
+- `research.html` — redirect to `/#research`, kept so old links keep working
 - `style.css` — shared styling
 - `vu-logo.png` — VU/SBE logo shown top-left in the header
-- `ti-logo.png` — Tinbergen Institute logo, next to the VU logo in the header of both pages
+- `ti-logo.png` — Tinbergen Institute logo, next to the VU logo in the header
 - `photo.jpg` — portrait on the homepage (full photo, 400×600, resized from the original)
 - `favicon.ico`, `favicon-32.png`, `favicon-16.png` — browser tab icon, cropped from `vu-logo.png` (VU wordmark + griffin only)
-- `sitemap.xml`, `robots.txt` — for search engines; add new pages to `sitemap.xml`. Each page carries a `<link rel="canonical">` to its `https://www.` URL
+- `sitemap.xml`, `robots.txt` — for search engines; add new pages to `sitemap.xml`. `index.html` carries a `<link rel="canonical">` to its `https://www.` URL
 - `CNAME` — custom domain configuration for GitHub Pages (`www.sijmenrijks.nl`)
 
 ## Updating content
@@ -29,6 +29,6 @@ the published site is still public at the domain above.
 
 `sticky-deposits-paper.pdf` currently holds a placeholder. Replace it with the real PDF (same
 filename) when ready to publish. It is deliberately not linked from any nav item or page yet —
-build out `research.html` and link to it there when the paper is ready to be public. The separate
+link to it from the research section of `index.html` when the paper is ready to be public. The separate
 public repo `SijmenR/sticky-deposits-paper` is no longer referenced anywhere and can be deleted or
 left as-is.

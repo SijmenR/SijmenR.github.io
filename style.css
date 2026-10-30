@@ -10,6 +10,16 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 body {
   margin: 0;
   padding: 0 1.5rem;
@@ -65,8 +75,7 @@ nav.site-nav a {
   padding-bottom: 0.2rem;
 }
 
-nav.site-nav a:hover,
-nav.site-nav a.active {
+nav.site-nav a:hover {
   border-bottom-color: var(--accent);
 }
 
@@ -179,4 +188,15 @@ footer.site-footer {
 
 .paper details p {
   margin-top: 0.5rem;
+}
+
+.page-section {
+  margin-top: 3rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border);
+  scroll-margin-top: 1.5rem;
+}
+
+.page-section h2 {
+  margin-top: 1.5rem;
 }
