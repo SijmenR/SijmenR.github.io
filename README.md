@@ -10,7 +10,7 @@ the published site is still public at the domain above.
 - `cv.pdf` — linked directly from the nav's "CV" item (no intermediate page)
 - `sticky-deposits-paper.pdf` — placeholder for the paper, linked directly from the paper's title
   page (`00 main.tex`) as the "latest version" URL; **not** linked from any nav or page on the site
-- `research.html` — research page, currently a "coming soon" placeholder
+- `research.html` — research page: paper titles and abstracts
 - `style.css` — shared styling
 - `vu-logo.png` — VU/SBE logo shown top-left in the header
 - `photo.jpg` — portrait on the homepage (full photo, 400×600, resized from the original)

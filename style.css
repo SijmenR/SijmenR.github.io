@@ -149,3 +149,23 @@ footer.site-footer {
   font-size: 0.85rem;
   text-align: center;
 }
+
+.paper {
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.paper h3 {
+  font-size: 1.1rem;
+  margin: 0 0 0.25rem;
+}
+
+.paper .paper-meta {
+  margin: 0 0 0.5rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.paper p {
+  margin-top: 0;
+}
