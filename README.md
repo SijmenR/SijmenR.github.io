@@ -6,7 +6,7 @@ the published site is still public at the domain above.
 
 ## Structure
 
-- `index.html` — the whole site on one page: name and tagline, then photo beside the blurb and contact details, a `#cv` section linking to `cv.pdf`, and a `#research` section with paper titles and abstracts. The nav items jump to `#top`, `#cv` and `#research`
+- `index.html` — the whole site on one page: photo beside a left-aligned column with name, tagline, blurb and contact details, a `#cv` section linking to `cv.pdf`, and a `#research` section with paper titles and abstracts. The nav items jump to `#top`, `#cv` and `#research`
 - `cv.pdf` — linked from the CV section of `index.html`, opening in a new tab
 - `sticky-deposits-paper.pdf` — placeholder for the paper, linked directly from the paper's title
   page (`00 main.tex`) as the "latest version" URL; **not** linked from any nav or page on the site
