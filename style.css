@@ -200,3 +200,8 @@ footer.site-footer {
 .page-section h2 {
   margin-top: 1.5rem;
 }
+
+.blurb {
+  text-align: left;
+  margin-top: 2.5rem;
+}
