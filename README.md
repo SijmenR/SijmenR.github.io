@@ -7,7 +7,7 @@ the published site is still public at the domain above.
 ## Structure
 
 - `index.html` — homepage (name in header, affiliation, contact, VU/SBE logo)
-- `cv.pdf` — linked directly from the nav's "CV" item (no intermediate page)
+- `cv.pdf` — linked directly from the nav's "CV" item, opening in a new tab
 - `sticky-deposits-paper.pdf` — placeholder for the paper, linked directly from the paper's title
   page (`00 main.tex`) as the "latest version" URL; **not** linked from any nav or page on the site
 - `research.html` — research page: paper titles and abstracts
