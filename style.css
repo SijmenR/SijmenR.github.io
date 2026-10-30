@@ -169,3 +169,14 @@ footer.site-footer {
 .paper p {
   margin-top: 0;
 }
+
+.paper details summary {
+  cursor: pointer;
+  color: var(--accent);
+  font-size: 0.95rem;
+  width: fit-content;
+}
+
+.paper details p {
+  margin-top: 0.5rem;
+}
