@@ -8,7 +8,7 @@ the published site is still public at the domain above.
 
 - `index.html` — the whole site on one page: photo beside a left-aligned column with name, tagline, blurb and contact details, a `#cv` section linking to `cv.pdf`, and a `#research` section with paper titles and abstracts. The nav items jump to `#top`, `#cv` and `#research`
 - `cv.pdf` — linked from the CV section of `index.html`, opening in a new tab
-- `sticky-deposits-paper.pdf` — placeholder for the paper, linked directly from the paper's title
+- `sticky-deposits-paper.pdf` — the job market paper, linked directly from its title
   page (`00 main.tex`) as the "latest version" URL; **not** linked from any nav or page on the site
 - `research.html` — redirect to `/#research`, kept so old links keep working
 - `style.css` — shared styling
@@ -27,8 +27,6 @@ the published site is still public at the domain above.
 
 ## Paper
 
-`sticky-deposits-paper.pdf` currently holds a placeholder. Replace it with the real PDF (same
-filename) when ready to publish. It is deliberately not linked from any nav item or page yet —
-link to it from the research section of `index.html` when the paper is ready to be public. The separate
-public repo `SijmenR/sticky-deposits-paper` is no longer referenced anywhere and can be deleted or
-left as-is.
+`sticky-deposits-paper.pdf` is the current version of the job market paper, linked from its title in the
+research section of `index.html`. Replace it with a new file of the same name to update it, and keep the
+abstract in `index.html` in sync.
